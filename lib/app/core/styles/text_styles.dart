@@ -1,6 +1,7 @@
 // Classe singleton é uma classe que eu vou ter uma mesma instância dela em toda a aplicação
 
 import 'package:flutter/material.dart';
+import 'package:flutter_fifa_world/app/core/styles/colors_app.dart';
 
 class TextStyles {
   static TextStyles? _instance;
@@ -54,6 +55,10 @@ class TextStyles {
   TextStyle get textSecondaryFontExtraBold => TextStyle(
         fontWeight: FontWeight.w800,
         fontFamily: secondaryFont,
+      );
+
+  TextStyle get labelTextField =>  textPrimaryFontRegular.copyWith(
+        color: ColorsApp.i.greyDark,
       );
 }
 
