@@ -14,6 +14,8 @@ class TextStyles {
   String get primaryFont => 'Poppins';
   String get secondaryFont => 'MPlus1P';
 
+  //? -------------- // PRIMARY // ----------------//
+
   TextStyle get textPrimaryFontRegular => TextStyle(
         fontWeight: FontWeight.normal,
         fontFamily: primaryFont,
@@ -22,16 +24,40 @@ class TextStyles {
         fontWeight: FontWeight.w500,
         fontFamily: primaryFont,
       );
-  TextStyle get textPrimarySemiBold => TextStyle(
+  TextStyle get textPrimaryFontSemiBold => TextStyle(
         fontWeight: FontWeight.w600,
         fontFamily: primaryFont,
       );
-  TextStyle get textPrimaryBold => TextStyle(
+  TextStyle get textPrimaryFontBold => TextStyle(
         fontWeight: FontWeight.bold,
         fontFamily: primaryFont,
       );
-  TextStyle get textPrimaryExtraBold => TextStyle(
+  TextStyle get textPrimaryFontExtraBold => TextStyle(
         fontWeight: FontWeight.w800,
         fontFamily: primaryFont,
       );
+
+  //? -------------- // SECONDARY // ----------------//
+
+  TextStyle get textSecondaryFontRegular => TextStyle(
+        fontWeight: FontWeight.normal,
+        fontFamily: secondaryFont,
+      );
+  TextStyle get textSecondaryFontMedium => TextStyle(
+        fontWeight: FontWeight.w600,
+        fontFamily: secondaryFont,
+      );
+  TextStyle get textSecondaryFontBold => TextStyle(
+        fontWeight: FontWeight.bold,
+        fontFamily: secondaryFont,
+      );
+  TextStyle get textSecondaryFontExtraBold => TextStyle(
+        fontWeight: FontWeight.w800,
+        fontFamily: secondaryFont,
+      );
+}
+
+// serve para acessar rapidamente os textos da aplicação 
+extension TextStylesExtensions on BuildContext{
+  TextStyles get textStyles => TextStyles.i;
 }
