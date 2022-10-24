@@ -55,3 +55,7 @@ class ButtonStyles {
         ),
       );
 }
+
+extension ButtonStylesExtensions on BuildContext {
+  ButtonStyles get buttons => ButtonStyles.i;
+}

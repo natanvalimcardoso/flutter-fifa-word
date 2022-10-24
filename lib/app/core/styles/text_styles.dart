@@ -60,6 +60,7 @@ class TextStyles {
   TextStyle get labelTextField =>  textPrimaryFontRegular.copyWith(
         color: ColorsApp.i.greyDark,
       );
+
 }
 
 // serve para acessar rapidamente os textos da aplicação 
