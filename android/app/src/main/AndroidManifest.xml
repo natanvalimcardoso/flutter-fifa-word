@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_fifa_world">
+    package="com.example.job_timer">
    <application
-        android:label="flutter_fifa_world"
+        android:label="job_timer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
