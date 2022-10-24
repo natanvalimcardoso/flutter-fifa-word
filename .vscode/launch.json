@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flutter_fifa_world",
+            "name": "job-timer",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "flutter_fifa_world (profile mode)",
+            "name": "job-timer (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "flutter_fifa_world (release mode)",
+            "name": "job-timer (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
