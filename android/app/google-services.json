@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "674236698810",
+    "project_id": "job-timer-97ffb",
+    "storage_bucket": "job-timer-97ffb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674236698810:android:da79d7fe7179f90aa4f283",
+        "android_client_info": {
+          "package_name": "com.example.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674236698810-n6eannfrujageum4liok0enor5ves3ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiGV76RjSYyGi3Ay-XcjNhrPzrkM_a8hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674236698810-n6eannfrujageum4liok0enor5ves3ld.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "674236698810-5lbme9snc9rido7ginih4mvmegtpt574.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobTimer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
