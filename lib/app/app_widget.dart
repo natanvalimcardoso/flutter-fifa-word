@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-
+import 'package:asuka/asuka.dart';
 import '../core/const/route_constants.dart';
 
 class AppWidget extends StatelessWidget {
@@ -11,6 +11,7 @@ class AppWidget extends StatelessWidget {
     Modular.setInitialRoute(RouteConstants.splashPage);
     return MaterialApp.router(
       title: 'Job Timer',
+      builder: Asuka.builder,
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,
       debugShowCheckedModeBanner: false,
